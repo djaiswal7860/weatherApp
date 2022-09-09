@@ -1,0 +1,84 @@
+body{
+    background-image:url("C:/Users/DEEPAK JAISWAL/Downloads/pexels-andre-furtado-1162251.jpg") ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: auto;
+}
+#button{
+    text-align : center;
+    padding-top: 40px;
+    
+}
+#city{
+    width: 380px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+
+    background-color: #454545;
+    color: #999999;
+}
+#city:hover{
+    background-color: #C0C0C0;
+    color: #FC04A0;
+}
+#search{
+    width: 50px;
+    height: 40px; 
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color: #454545;
+    color: #0000FF;
+    border: 2px solid white;
+}
+#search:hover{
+    background-color: #C0C0C0;
+    color: #FF00FF;
+    border: 2px solid white;
+}
+body{
+    background-color: black;
+}
+
+#mainDiv{
+    text-align : center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+   align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    line-height: 40px;
+    
+}
+#climate{
+    font-size: large;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s1{
+    border: 2px solid black;
+    width: 150px;
+    height: 55px;
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+    border-right: none;
+    word-spacing: 10px;
+    line-height: 0.7;
+}
+.s2{
+    border: 2px solid black;
+    width: 150px;
+    height: 55px;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    word-spacing: 10px;
+    line-height: 0.7;
+}
