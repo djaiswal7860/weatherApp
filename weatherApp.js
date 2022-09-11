@@ -6,16 +6,16 @@ var place=document.querySelector("#place");
 var feel=document.querySelector("#feel");
 var humidity=document.querySelector("#humidity");
 var minMax=document.querySelector("#minMax");
-
+var apiKey="6d055e39ee237af35ca066f35474e9df";
 async function getWeatherData(city){
-    var data = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=6d055e39ee237af35ca066f35474e9df`)
+    var data = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`);
     var weatherData=await data.json();
     if(weatherData.cod==200){
     console.log(weatherData);
     console.log(weatherData.main.temp);
     temprature.innerHTML= `${Math.floor(weatherData.main.temp)}&#176C`;
     console.log(weatherData.weather[0].description);
-    description.innerHTML=weatherData.weather[0].description
+    description.innerHTML=weatherData.weather[0].description;
     console.log(weatherData.name);
    place.innerHTML=`<sub><span class="material-symbols-outlined">
    location_on
