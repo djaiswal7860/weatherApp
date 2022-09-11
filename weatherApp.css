@@ -50,7 +50,7 @@ body{
     justify-content: center;
     padding-top: 20px;
     margin-top: 20px;
-    line-height: 40px;
+    line-height: 20px;
     
 }
 #climate{
@@ -81,4 +81,7 @@ body{
     border-bottom-right-radius:10px ;
     word-spacing: 10px;
     line-height: 0.7;
+}
+#minMax{
+    word-spacing: 20px;
 }
